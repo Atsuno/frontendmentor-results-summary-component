@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body
+    class="flex h-full flex-col items-center justify-center font-HankenGrotesk text-lg md:h-screen"
+  >
+    <div
+      class="flex flex-col rounded-3xl md:max-w-2xl md:flex-row md:shadow-xl md:shadow-[#382fec]/10"
+    >
+      <div
+        class="flex flex-col items-center gap-4 rounded-b-3xl bg-gradient-to-b from-[#6743ff] to-[#382fec] pb-7 pt-5 text-center text-white md:w-[304px] md:rounded-t-2xl"
+      >
+        <div class="pb-4 font-medium text-white opacity-60 md:pt-2">
+          Your Result
+        </div>
+        <div
+          class="my-5 flex h-36 w-36 flex-col items-center justify-center gap-2 rounded-full bg-gradient-to-t from-[#4734f0] to-[#4b24cd] pt-3 md:my-0 md:h-44 md:w-44"
+        >
+          <span class="text-5xl font-semibold">76</span>
+          <span class="font-medium opacity-60">of 100</span>
+        </div>
+
+        <div class="text-2xl font-medium md:pt-3">Great</div>
+        <div class="px-12 text-base opacity-70 md:px-9 md:pb-5">
+          You scored higher than 65% of the people who have taken these tests.
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-5 rounded-3xl px-7 py-10 md:w-[307px] md:rounded-l-none md:pb-5 md:pt-6 md:shadow-xl [&_div]:flex [&_div]:h-12 [&_div]:flex-row [&_div]:items-center [&_div]:justify-between [&_div]:rounded-lg [&_div]:bg-opacity-5 [&_div]:px-2 [&_span]:text-base [&_span]:font-medium even:[&_span]:pl-3 odd:[&_span~span]:text-[#303b59] even:[&_span~span]:opacity-40"
+      >
+        <p class="text-xl font-bold text-[#303b59]">Summary</p>
+        <div class="bg-[#FF5757]">
+          <div>
+            <img src="./assets/images/icon-reaction.svg" alt="Reaction Icon" />
+            <span class="text-[#FF5757]">Reaction</span>
+          </div>
+          <div><span>80</span><span> / 100</span></div>
+        </div>
+        <div class="bg-[#FFB01F]">
+          <div>
+            <img src="./assets/images/icon-memory.svg" alt="Memory Icon" />
+            <span class="text-[#FFB01F]"> Memory </span>
+          </div>
+          <div>
+            <span>92</span>
+            <span>/ 100</span>
+          </div>
+        </div>
+        <div class="bg-[#00BD91]">
+          <div>
+            <img src="./assets/images/icon-verbal.svg" alt="Verbal Icon" />
+            <span class="text-[#00BD91]">Verbal</span>
+          </div>
+          <div>
+            <span>61</span>
+            <span>/ 100</span>
+          </div>
+        </div>
+        <div class="bg-[#1125D4]">
+          <div>
+            <img src="./assets/images/icon-visual.svg" alt="Visual Icon" />
+            <span class="text-[#1125D4]"> Visual</span>
+          </div>
+          <div><span>72</span><span> / 100</span></div>
+        </div>
+        <button
+          class="mt-2 h-12 w-full rounded-full bg-[#303b59] from-[#5e2fff] to-[#312cea] text-center font-medium text-white hover:bg-gradient-to-b md:mt-4"
+          type="button"
+        >
+          Continue
+        </button>
+      </div>
+    </div>
+    <div class="attribution fixed bottom-5">
+      Challenge by
+      <a rel="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Atsuno">Atsuno</a>.
+    </div>
+  </body>
+</html>

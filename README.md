@@ -1,6 +1,6 @@
 # Live Demo
 
-[https://atsuno.github.io/frontendmentor-results-summary-component/]
+https://atsuno.github.io/frontendmentor-results-summary-component/
 
 > The below information is original challenge README from [Challenges Results summary component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)
 
